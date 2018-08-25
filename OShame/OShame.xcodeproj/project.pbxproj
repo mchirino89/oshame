@@ -57,6 +57,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7153135821320E640083E8AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				71D20B2B21320B4C0001E225 /* Main.storyboard */,
+				71D20B2E21320B4E0001E225 /* Assets.xcassets */,
+				71D20B3021320B4E0001E225 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7153135921320E780083E8AF /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				71D20B4721320B6F0001E225 /* OShame.entitlements */,
+				71D20B2721320B4C0001E225 /* AppDelegate.swift */,
+				71D20B3321320B4E0001E225 /* Info.plist */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		7153135A21320E820083E8AF /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				71D20B2921320B4C0001E225 /* ViewController.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		71D20B1B21320B4C0001E225 = {
 			isa = PBXGroup;
 			children = (
@@ -78,13 +106,9 @@
 		71D20B2621320B4C0001E225 /* OShame */ = {
 			isa = PBXGroup;
 			children = (
-				71D20B4721320B6F0001E225 /* OShame.entitlements */,
-				71D20B2721320B4C0001E225 /* AppDelegate.swift */,
-				71D20B2921320B4C0001E225 /* ViewController.swift */,
-				71D20B2B21320B4C0001E225 /* Main.storyboard */,
-				71D20B2E21320B4E0001E225 /* Assets.xcassets */,
-				71D20B3021320B4E0001E225 /* LaunchScreen.storyboard */,
-				71D20B3321320B4E0001E225 /* Info.plist */,
+				7153135921320E780083E8AF /* Global */,
+				7153135A21320E820083E8AF /* Logic */,
+				7153135821320E640083E8AF /* UI */,
 			);
 			path = OShame;
 			sourceTree = "<group>";
@@ -365,10 +389,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = OShame/OShame.entitlements;
+				CODE_SIGN_ENTITLEMENTS = OShame/Global/OShame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7CXK2PKWD;
-				INFOPLIST_FILE = OShame/Info.plist;
+				INFOPLIST_FILE = OShame/Global/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,10 +408,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = OShame/OShame.entitlements;
+				CODE_SIGN_ENTITLEMENTS = OShame/Global/OShame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7CXK2PKWD;
-				INFOPLIST_FILE = OShame/Info.plist;
+				INFOPLIST_FILE = OShame/Global/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
