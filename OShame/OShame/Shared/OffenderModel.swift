@@ -10,5 +10,5 @@ import Foundation
 
 struct OffenderModel {
     var name: String
-    var offense: Int
+    var total: Int
 }

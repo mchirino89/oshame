@@ -16,7 +16,7 @@
 		71531382213218550083E8AF /* OffenderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71531381213218550083E8AF /* OffenderModel.swift */; };
 		71531383213219030083E8AF /* OffenderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71531381213218550083E8AF /* OffenderModel.swift */; };
 		7153138521338BD60083E8AF /* OffenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153138421338BD60083E8AF /* OffenderCell.swift */; };
-		7153138621338BD60083E8AF /* OffenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153138421338BD60083E8AF /* OffenderCell.swift */; };
+		715313892133935F0083E8AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715313882133935F0083E8AF /* Extensions.swift */; };
 		71D20B2821320B4C0001E225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D20B2721320B4C0001E225 /* AppDelegate.swift */; };
 		71D20B2A21320B4C0001E225 /* CounterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D20B2921320B4C0001E225 /* CounterTableViewController.swift */; };
 		71D20B2D21320B4C0001E225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D20B2B21320B4C0001E225 /* Main.storyboard */; };
@@ -85,6 +85,7 @@
 		71531374213216CB0083E8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71531381213218550083E8AF /* OffenderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffenderModel.swift; sourceTree = "<group>"; };
 		7153138421338BD60083E8AF /* OffenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffenderCell.swift; sourceTree = "<group>"; };
+		715313882133935F0083E8AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		71D20B2421320B4C0001E225 /* OShame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OShame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D20B2721320B4C0001E225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D20B2921320B4C0001E225 /* CounterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTableViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				71531381213218550083E8AF /* OffenderModel.swift */,
+				715313882133935F0083E8AF /* Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -399,7 +401,6 @@
 			files = (
 				71531383213219030083E8AF /* OffenderModel.swift in Sources */,
 				71531371213216CA0083E8AF /* ExtensionDelegate.swift in Sources */,
-				7153138621338BD60083E8AF /* OffenderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715313892133935F0083E8AF /* Extensions.swift in Sources */,
 				71D20B2A21320B4C0001E225 /* CounterTableViewController.swift in Sources */,
 				71D20B2821320B4C0001E225 /* AppDelegate.swift in Sources */,
 				7153138521338BD60083E8AF /* OffenderCell.swift in Sources */,
