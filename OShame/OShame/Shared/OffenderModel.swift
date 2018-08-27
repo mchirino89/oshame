@@ -1,5 +1,5 @@
 //
-//  CounterModel.swift
+//  OffenderModel.swift
 //  OShame
 //
 //  Created by Mauricio Chirino on 25/8/18.
